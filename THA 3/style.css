@@ -1,0 +1,52 @@
+*{
+  font-family: "Playfair Display", serif;
+  margin:10px;
+}
+.title{
+  text-align:center;
+}
+.resume {
+  display: flex;
+  min-height: 300px;
+}
+.resume .left {
+  width: 50%;
+  margin:10px;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+.resume .right {
+  width: 50%;
+   margin:10px;
+border: 2px solid grey;
+  border-radius: 5px;
+}
+.resume .card {
+  text-align:justify;
+  padding-left:10px;
+  padding-right:10px;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+
+h1{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 100;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px red;
+}
+
+h3{
+  text-shadow: 2px 2px 5px yellow;
+  background-color:gray;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#email{
+  margin-right: 20px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: slateblue;
+}
