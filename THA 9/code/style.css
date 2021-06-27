@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../img/bg.jpg");
+}
+
+.top{
+    display: flex;
+    align-content: space-between;
+    width: 500px;
+    margin: auto;
+}
+
+h3{
+    padding: 0 80px;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.637);
+    border-radius: 50px 50px 50px 50px;
+}
+
+.screen{
+    margin: auto;
+    width: 1200px;
+    height: 100px;
+    top: 100px;
+    background-color: #1c8299f5;
+    border-radius: 100px 100px 0 0;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    box-shadow: 8px 8px 5px 2px white;
+}
+
+.movie_name{
+    margin:50px;
+    margin-left: 500px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    text-shadow: -4px 0 black, 0 1px black, 1px 0 black, 0 -4px black;
+}
+.frame{
+    font-size: 0;
+    position: absolute;
+    top:70%;
+    left: 17%;
+    width: 1400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-template-rows: repeat(5, auto);
+    gap: 2px 2px;
+    padding: 3px;
+    box-shadow: 8px 8px 12px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+
+.remain{
+    /* background-color: crimson; */
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0.5;
+}
+
+.remain:hover{
+    background-color: rgba(255, 0, 0, 0.514);
+}
+
+.book{
+    border-radius: 10px 10px 10px 10px;
+    background: url("../img/seat.jpg");
+    background-size: 100% 100%;
+}
