@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url("./imgs/wp2757874.gif");
+    background-size: cover;
+    font-family: 'Castoro', serif;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    padding: 50px;
+    color: skyblue;
+}
+
+
+/* .frame{
+    font-size: 0;
+    top: 20%;
+    left: 30%;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 3px 3px;
+    padding: 3px;
+    box-shadow: 8px 8px 8px rgba(160, 147, 147, 0.671);
+    background-image: url("https://am21.mediaite.com/tms/cnt/uploads/2018/10/TVD.jpg");
+    background-size: contain;
+} */
+
+.grid {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 828px;
+    height: 513px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+    box-shadow: 8px 8px 8px rgba(160, 147, 147, 0.671);
+    background-image: url("./imgs/TVD.jpg");
+    background-size: contain;
+  }
+
