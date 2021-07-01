@@ -1,10 +1,5 @@
 document.addEventListener("DOMContentLoaded", ()=>{
 
-    // var MovesElement = document.querySelector(".Moves")
-    // let Moves = 0
-
-    // MovesElement.innerText = Moves
-
     const cardArray = [
         {
             name:'Damon',
@@ -58,7 +53,10 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
     cardArray.sort(() => 0.5 - Math.random())
     //create board
-    const Result = document.querySelector("#Moves")
+    const Result = document.querySelector("#Score")
+    const MovesElement = document.querySelector("#Moves")
+    let match = 0
+    MovesElement.innerText = match
     Result.textContent = 0
     const grid = document.querySelector('.grid');
     var cardsChosen = []
@@ -78,8 +76,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
     create()
     //check for matches
     function checkMatch(){
-        // Moves+=1
-        // MovesElement.innerText = Moves
+        match+=1
+        MovesElement.innerText = match
         var cards = document.querySelectorAll("img")
         const optOneID = cardsChosenID[0]
         const optTwoID = cardsChosenID[1]
