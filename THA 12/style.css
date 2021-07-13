@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@0;1&display=swap');
+html,body{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 50%;
+    font-family: 'Bona Nova', serif;
+    background-image: url("../THA 12/background\ img.jpg");
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    margin-top: 100px;
+    width: 360px;
+}
+
+#inputField{
+    width: 300px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    font-size: large;
+    vertical-align: middle;
+}
+
+#addToDo{
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: xx-large;
+    vertical-align: middle;
+    background-color: blueviolet;
+    cursor: pointer;
+    color: white;
+}
+
+.To-Dos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    margin: 0;
+    cursor: pointer;
+    font-size: large;
+}
