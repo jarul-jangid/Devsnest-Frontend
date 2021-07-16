@@ -12,4 +12,5 @@ All of my projects related to Frontend Development completed at Devsnest will be
 1. [THA 10](https://devsnest-frontend-jarul.netlify.app/tha%2010/)
 1. [THA 11](https://devsnest-frontend-jarul.netlify.app/tha%2011/)
 1. [THA 12](https://devsnest-frontend-jarul.netlify.app/tha%2012/)
+1. [THA 13](https://devsnest-frontend-jarul.netlify.app/tha%2013/)
 
